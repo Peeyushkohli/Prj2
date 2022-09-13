@@ -1,0 +1,33 @@
+MySQl : database => learner 
+
+Tables ->student , teacher ,subject 
+
+
+create database learner ;
+
+
+create table student (
+	id int primary key  not null,
+	Name varchar(30) not null , 
+	age int check(age>0 AND age < 100 ),
+	Standard int,
+	Subject varchar(7) not null,
+	Subject_id int refrences Subject_id(student);
+	
+ );
+
+create table teacher(
+Teacher_id int  primary key ,
+Teacher_name varchar(20) not null,
+Teacher_age int check(Teacher_age>0 AND Teacher_age <100),
+DOB date not null,
+DOJ date not null , 
+Teches_subject varchar (7) not null  ,
+Sub_id int);
+
+
+create table subject(
+Subject_id int primary key  not null,
+Subject varchar(7) not null ,
+tought_in_standard int
+ );

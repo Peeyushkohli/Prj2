@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="D:/javaFSD/phase2/JARS/JARS/servletjsp/jsp-api.jar"/>
+	<classpathentry kind="lib" path="D:/javaFSD/phase2/JARS/JARS/servletjsp/jstl.jar"/>
+	<classpathentry kind="lib" path="D:/javaFSD/phase2/JARS/JARS/servletjsp/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/javaFSD/phase2/JARS/JARS/servletjsp/ojdbc6.jar"/>
+	<classpathentry kind="lib" path="D:/javaFSD/phase2/JARS/JARS/servletjsp/servlet-api.jar"/>
+	<classpathentry kind="lib" path="D:/javaFSD/phase2/JARS/JARS/servletjsp/standard.jar"/>
+	<classpathentry kind="lib" path="D:/javaFSD/phase2/JARS/JARS/Jdbc jar/mysql-connector-java-5.0.4-bin.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
